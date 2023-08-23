@@ -1,0 +1,451 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* global css */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #1A394F;
+}
+
+ul,
+li {
+    list-style-type: none;
+}
+
+/* Nav bar */
+nav {
+    width: 100%;
+    display: flex;
+    background-color: #1A394F;
+    padding: 20px;
+    /* border: 2px solid red; */
+    justify-content: space-between;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* Logo */
+.logo h1 {
+    color: #BAC3CA;
+    font-weight: 500;
+    /* border: 2px solid red; */
+}
+
+.logo ul {
+    display: flex;
+}
+
+.logo li {
+    margin: 0 5px;
+}
+
+.logo {
+    /* border: 2px solid red; */
+    margin-left: 20px;
+    padding: 10px 15px;
+}
+
+/* Nav_items */
+.nav_items {
+    /* border: 2px solid red; */
+    line-height: 35px;
+    margin-right: 35px;
+    padding: 10px 15px;
+}
+
+.nav_items ul {
+    display: flex;
+}
+
+.nav_items li a {
+    color: #BAC3CA;
+    /* border: 2px solid red; */
+    font-size: 18px;
+    margin: 30px;
+    text-decoration: none;
+    line-height: 45px;
+}
+
+.nav_items li a:hover {
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.nav_items i {
+    color: #BAC3CA;
+    line-height: 45px;
+    margin-right: 0;
+    margin-left: 25px;
+}
+
+/* main container */
+.container1 {
+    background-color: #1A394F ;
+    margin: 0 45px;
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid red; */
+}
+
+/*div holding the slide img product */
+
+.slide_border {
+    width: 65%;
+    height: 550px;
+    display: flex;
+    flex-direction: column;
+    margin: 50px auto 20px auto;
+    background-color: #245285;
+    border-radius: 25px;
+    /* border: 2px solid red; */
+    position: relative;
+}
+
+.txtdiv {
+    text-align: center;
+    margin: 20px auto;
+    padding: 15px;
+    color: antiquewhite;
+    /* border: 1px solid red; */
+}
+
+/* div pointing out from slide img */
+.footdiv {
+    width: 30px;
+    height: 30px;
+    display: flex;
+    background-color: #245285;
+    position: absolute;
+    /* border: 1px solid red; */
+    top: 535px;
+    left: 45%;
+    rotate: 45deg;
+}
+
+/* img inside the slide container */
+.img_slide {
+    width: 180px;
+    height: 180px;
+    margin: 100px auto 20px auto;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    /* border: 1px solid rgb(233, 236, 23); */
+}
+
+.txtdiv h1 {
+    font-size: 70px;
+    font-weight: 400;
+}
+
+.txtdiv p {
+    font-size: 28px;
+    font-weight: 500;
+}
+
+
+.tetdiv {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    padding: 10px;
+    margin: 30px auto;
+    /* border: 1px solid rgb(150, 26, 233); */
+}
+
+.free_download {
+    color: white;
+    font-size: 24px;
+    padding: 25px;
+    margin-right: 100px;
+    border-radius: 45px;
+    background-color: #1A394F;
+    border: 3px solid white;
+}
+
+.fa-windows {
+    margin: 0 10px;
+}
+
+.learn-more {
+    background-color: #1A394F;
+    font-size: 24px;
+    padding: 25px;
+    color: white;
+    border: 3px solid white;
+    border-radius: 45px;
+}
+
+.free_download:hover,
+.learn-more:hover {
+    background-color: antiquewhite;
+    color: #192b38;
+}
+
+.bring {
+    margin: 50px auto;
+    /* border: 1px solid red; */
+    padding: 20px;
+}
+
+.bring h2 {
+    color: #88959F;
+    font-size: 45px;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.bring p {
+    color: #88959F;
+    font-size: 22px;
+    font-weight: 400;
+    text-align: center;
+}
+
+
+/* Div having the hover effect */
+
+.hovereff_cont {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    /* border: 2px solid rgb(194, 32, 153); */
+}
+
+.hov_div1 {
+    width: 49%;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    border-radius: 15px;
+    /* border: 1px solid red; */
+    background-color: #245285;
+    color: #BED0DB;
+}
+
+.txtdiv1 h4 {
+    margin-bottom: 15px;
+    font-size: 26px;
+    font-weight: 600;
+    /* border: 1px solid red; */
+}
+
+.txtdiv1 p {
+    font-size: 19px;
+    font-weight: 400;
+}
+
+.txtdiv1 {
+    /* border: 1px solid red; */
+    width: 80%;
+    margin: 20px auto 5px auto;
+    color: #b1c5cf;
+    text-align: center;
+    font-size: 13.5px;
+    font-weight: 500;
+}
+
+.tetdiv1 {
+    display: flex;
+    margin: 10px auto;
+    padding: 20px;
+    /* border: 1px solid rgb(157, 180, 27); */
+}
+
+.free_download1 {
+    color: white;
+    font-size: 16px;
+    padding: 10px;
+    text-align: center;
+    margin-right: 20px;
+    border-radius: 5px;
+    background-color: #4285F4;
+    /* border: 2px solid white; */
+}
+
+.learn-more1 p {
+    margin: 0 20px;
+}
+
+.learn-more1 {
+    color: white;
+    border-radius: 5px;
+    font-size: 16px;
+    padding: 10px;
+    text-align: center;
+    background-color: #11BCA3;
+    /* border: 2px solid white; */
+}
+
+/* img inside the slide container */
+.himg_slide {
+    width: 70px;
+    height: 70px;
+    margin: 40px auto 0 auto;
+    display: flex;
+    /* border: 1px solid rgb(233, 236, 23); */
+}
+
+.hov_div2 {
+    width: 32.5%;
+    display: flex;
+    flex-direction: column;
+    border-radius: 15px;
+    position: relative;
+    background-color: #245285;
+    color: #BED0DB;
+    padding: 20px;
+}
+
+
+
+/* overlay ppty */
+
+.overlay {
+    position: absolute;
+    bottom: 100%;
+    left: 0;
+    right: 0;
+    background-color: #173448;
+    overflow: hidden;
+    width: 100%;
+    height: 0;
+    transition: 0.7s ease;
+}
+
+.hov_div1:hover .overlay,
+.hov_div2:hover .overlay {
+    bottom: 0;
+    height: 100%;
+    opacity: 0.5;
+}
+
+
+.morep {
+    width: 100%;
+    /* background-color: #091E2D ; */
+    margin: 5px 0;
+    padding: 110px;
+    /* border: 1px solid pink; */
+}
+
+.morep p {
+    /* border: 1px solid pink; */
+    text-align: center;
+    font-size: 30px;
+    font-weight: 400;
+    color: #b1c5cf;
+}
+
+.fa-arrow-right {
+    margin-left: 20px;
+    font-size: 20px;
+    background-color: #b1c5cf;
+    border-radius: 50px;
+    padding: 7px;
+    color: #192b38;
+}
+
+.cont1 {
+    background-color: #29465C;
+    display: block;
+    width: 98%;
+    height: 600px;
+    border: 1px solid red;
+}
+
+.how {
+    /* width: 45%; */
+    border: 1px solid red;
+    /* margin: 50px 10px; */
+    /* padding: 10px; */
+}
+
+.ladder {
+    /* width: 45%; */
+    border: 1px solid red;
+    /* margin: 50px 0; */
+    /* padding: 10px; */
+}
+
+.how h2 {
+    font-size: 40px;
+    border: 1px solid red;
+    color: #BEC7CE;
+}
+
+.how p {
+    border: 1px solid red;
+    color: #BEC7CE;
+}
+
+
+.ladder img {
+    /* margin-left: 205px; */
+}
+
+
+
+
+
+
+
+
+
+
+
+.foot {
+    background-color: #F2F2F2;
+    padding: 30px;
+    color: #606060;
+    display: flex;
+    justify-content: space-between;
+    /* border: 1px solid red; */
+}
+
+.fontawe a {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    color: white;
+    text-align: center;
+    margin-right: 10px;
+    padding: 7px;
+    background-color: #333333;
+}
+
+
+.fa-facebook-f,
+.fa-twitter,
+.fa-youtube {
+    font-size: 25px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
