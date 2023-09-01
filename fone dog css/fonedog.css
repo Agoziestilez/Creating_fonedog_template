@@ -20,7 +20,7 @@ nav {
     width: 100%;
     display: flex;
     background-color: #1A394F;
-    padding: 20px;
+    padding: 5px;
     /* border: 2px solid red; */
     justify-content: space-between;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -43,16 +43,15 @@ nav {
 
 .logo {
     /* border: 2px solid red; */
-    margin-left: 20px;
-    padding: 10px 15px;
+    margin-left: 10px;
+    padding: 5px 10px;
 }
 
 /* Nav_items */
 .nav_items {
-    /* border: 2px solid red; */
-    line-height: 35px;
     margin-right: 35px;
-    padding: 10px 15px;
+    /* border: 2px solid red; */
+    padding: 5px 10px;
 }
 
 .nav_items ul {
@@ -63,7 +62,7 @@ nav {
     color: #BAC3CA;
     /* border: 2px solid red; */
     font-size: 18px;
-    margin: 30px;
+    margin: 15px;
     text-decoration: none;
     line-height: 45px;
 }
@@ -87,29 +86,26 @@ nav {
     margin: 0 45px;
     display: flex;
     flex-direction: column;
-    /* border: 1px solid red; */
+    border: 1px solid red;
 }
 
 /*div holding the slide img product */
 
 .slide_border {
-    width: 65%;
-    height: 550px;
-    display: flex;
-    flex-direction: column;
-    margin: 50px auto 20px auto;
+    border: 2px solid red;
     background-color: #245285;
     border-radius: 25px;
-    /* border: 2px solid red; */
+    width: 70%;
+    height: auto;
     position: relative;
+    margin: 50px auto 20px auto;
+    flex-direction: column;
+    display: flex;
 }
 
 .txtdiv {
-    text-align: center;
-    margin: 20px auto;
-    padding: 15px;
-    color: antiquewhite;
-    /* border: 1px solid red; */
+    margin: 5px auto;
+    border: 1px solid red;
 }
 
 /* div pointing out from slide img */
@@ -119,30 +115,35 @@ nav {
     display: flex;
     background-color: #245285;
     position: absolute;
-    /* border: 1px solid red; */
-    top: 535px;
+    border: 1px solid red;
+    top: 395px;
     left: 45%;
     rotate: 45deg;
 }
 
 /* img inside the slide container */
 .img_slide {
-    width: 180px;
-    height: 180px;
-    margin: 100px auto 20px auto;
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    /* border: 1px solid rgb(233, 236, 23); */
+    width: 120px;
+    height: 120px;
+    margin: 70px auto 20px auto;
+    border: 1px solid rgb(233, 236, 23);
 }
 
 .txtdiv h1 {
-    font-size: 70px;
+    color: antiquewhite;
+    margin: 5px auto;
+    text-align: center;
+    font-size: 50px;
+    border: 1px solid rgb(233, 236, 23);
     font-weight: 400;
 }
 
 .txtdiv p {
-    font-size: 28px;
+    color: antiquewhite;
+    margin: 5px auto;
+    text-align: center;
+    border: 1px solid rgb(233, 236, 23);
+    font-size: 22px;
     font-weight: 500;
 }
 
@@ -153,7 +154,7 @@ nav {
     align-content: center;
     padding: 10px;
     margin: 30px auto;
-    /* border: 1px solid rgb(150, 26, 233); */
+    border: 1px solid rgb(150, 26, 233);
 }
 
 .free_download {
